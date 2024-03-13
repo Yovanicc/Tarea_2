@@ -1,0 +1,177 @@
+/* estilos.css */
+
+.contenedor1 {
+    background-color: rgb(135, 3, 216);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 900px;
+    align-content: space-between;
+}
+
+.caja1 {
+    background-color: yellow;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subcaja1, .subcaja2, .subcaja3, .subcaja4 {
+    background-color: red;
+    width: 150px;
+    height: 300px;
+    margin: 5px;
+    position: fixed;
+}
+
+.subcaja1 {
+    top: 100px;
+    left: 100px;
+}
+
+.subcaja2 {
+    top: 100px;
+    right: 1200px;
+}
+
+.subcaja3 {
+    bottom: 100px;
+    left: 100px;
+}
+
+.subcaja4 {
+    bottom: 100px;
+    right: 1200px;
+}
+
+.caja2 {
+    background-color: red;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 2;
+}
+
+.subcaja5, .subcaja6, .subcaja7, .subcaja8, .subcaja9, .subcaja10, .subcaja11, .subcaja12, .subcaja13 {
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    margin: 150px;
+    position: absolute;
+}
+
+.subcaja5 {
+    top: 40px;
+    left: 28%;
+}
+
+.subcaja6 {
+    top: 40px;
+    left: 38%;
+}
+
+.subcaja7 {
+    top: 40px;
+    left: 50%;
+}
+
+.subcaja8 {
+    top: 250px;
+    left: 28%;
+}
+
+.subcaja9 {
+    top: 250px;
+    left: 38%;
+}
+
+.subcaja10 {
+    top: 250px;
+    left: 50%;
+}
+
+.subcaja11 {
+    top: 500px;
+    left: 28%;
+}
+
+.subcaja12 {
+    top: 500px;
+    left: 38%;
+}
+
+.subcaja13 {
+    top: 500px;
+    left: 50%;
+}
+
+.caja3 {
+    background-color: greenyellow;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 2;
+}
+
+.subcaja14, .subcaja15, .subcaja16, .subcaja17, .subcaja18, .subcaja19 {
+    background-color: blue;
+    margin: 5px;
+    position: fixed;
+}
+
+.subcaja14 {
+    top: 60px;
+    right: 140px;
+    width: 310px;
+    height: 100px;
+}
+
+.subcaja15 {
+    top: 200px;
+    right: 140px;
+    width: 100px;
+    height: 250px;
+}
+
+.subcaja16 {
+    top: 200px;
+    left: 1200px;
+    width: 100px;
+    height: 250px;
+}
+
+.subcaja17 {
+    top: 500px;
+    right: 140px;
+    width: 310px;
+    height: 100px;
+}
+
+.subcaja18 {
+    top: 620px;
+    right: 140px;
+    width: 100px;
+    height: 250px;
+}
+
+.subcaja19 {
+    top: 620px;
+    left: 1200px;
+    width: 100px;
+    height: 250px;
+}
+
+/* Media queries */
+@media screen and (max-width: 400px) {
+    .caja3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .caja1, .caja2 {
+        display: none;
+    }
+}
